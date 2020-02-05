@@ -194,7 +194,7 @@ li{
     font-size: 15rem;
     font-family: 'Righteous', cursive;
     /*background: linear-gradient(to top, #ffe838, #fd57bf);*/
-    background-color: #FFD600;;
+    background-color: #eeeeee;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -478,7 +478,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px) {
     body {
-        background: url("images/sitebg2.jpg") no-repeat center fixed;
+        background: url("images/sitebg.jpg") no-repeat center fixed;
         background-size: cover;
     }
 
