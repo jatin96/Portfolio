@@ -534,6 +534,9 @@ input[type="submit"]:hover{
         top: 2rem;
         right: 2rem;
     }
+    .nav-list{
+        flex-direction: column;
+    }
     .landing-text h1{
         font-size: 8rem;
     }
