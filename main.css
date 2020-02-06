@@ -35,6 +35,11 @@ img{
 
 }
 
+.image-brand-logo{
+    width: 8%;
+    margin: 0.5rem;
+}
+
 .container{
     width: 90%;
     max-width: 120rem;
@@ -261,6 +266,25 @@ li{
 .fa-linkedin:hover{
     color: #0e76a8;
 }
+
+/* Style buttons */
+.btn {
+    background-color: #FFD600;
+    margin-top: 5rem;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: center;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #FFD600;
+}
+
+
 .my-skills{
     margin-top: 10rem;
     display: grid;
