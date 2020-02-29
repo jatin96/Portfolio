@@ -279,7 +279,19 @@ li{
     color: black;
     padding: 12px 30px;
     cursor: pointer;
+    font-size: 40px;
+    align-self: center;
+}
+.btn-cert {
+    background-color: #FFD600;
+    margin-top: 20rem;
+    /* margin-left: 5rem; */
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
     font-size: 20px;
+    
     align-self: center;
 }
 
@@ -583,18 +595,22 @@ input[type="submit"]:hover{
         flex-direction: column;
     }
     .profile-img{
-        margin: 0 0 7rem 0;
+        margin: 0 0 10rem 0;
     }
     .portfolio-item{
         flex-direction: column;
+       
     }
     .portfolio-img{
         margin: 0 0 2rem 0;
+        padding-left: 4rem;
         order: 1;
     }
     .portfolio-description{
         margin: 0;
         order: 2;
+        margin-bottom: 2rem;
+        text-align: center;
     }
     .timeline h1{
         font-size: 2rem;
