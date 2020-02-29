@@ -35,8 +35,12 @@ img{
 
 }
 
-.image-brand-logo{
+.image-brand-logo-visa{
     width: 8%;
+    margin: 0.5rem;
+}
+.image-brand-logo-ms{
+    width: 12%;
     margin: 0.5rem;
 }
 
@@ -310,14 +314,14 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid #FFD600;
-    background-color: #fd57bf;
+    background-color: #FFD600;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: #FFD600;
+    color: #000000;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -360,7 +364,7 @@ li{
     color: #3883ff;
     transition: color 650ms;
 }
-
+image-brand-logo
 .portfolio-description .cta:hover{
     color:#2f67cd;
 }
@@ -378,7 +382,7 @@ li{
     width: 70%;
 }
 .timeline h1{
-    font-size: 4rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -458,7 +462,8 @@ input[type="submit"]:hover{
 
 .copyright{
     width: 100%;
-    //font-size: 20rem;
+    font-size: 20rem;
+    margin-top: 10px;
     text-align: center;
     color: #211F1F;
     font-weight: 500;
@@ -558,6 +563,7 @@ input[type="submit"]:hover{
         top: 2rem;
         right: 2rem;
     }
+   
     .nav-list{
         flex-direction: column;
     }
@@ -565,7 +571,10 @@ input[type="submit"]:hover{
         font-size: 8rem;
     }
     .landing-text h6{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+    }
+    .profile-img{
+        padding-left: 5rem;
     }
     .nav-link{
         font-size: 3.5rem;
@@ -587,8 +596,23 @@ input[type="submit"]:hover{
         margin: 0;
         order: 2;
     }
-    .timeline p{
+    .timeline h1{
+        font-size: 2rem;
+    }
+    .timeline h2{
         font-size: 1.6rem;
+        font-style: italic;
+    }
+    .timeline p{
+        font-size: 1.2rem;
+    }
+    .image-brand-logo-visa{
+        width: 25%;
+        margin: 0.5rem;
+    }
+    .image-brand-logo-ms{
+        width: 40%;
+        margin: 0.5rem;
     }
     .timeline .date::before{
         font-size: 1.4rem;
@@ -599,6 +623,7 @@ input[type="submit"]:hover{
     .up{
         right: 2rem;
     }
+    
 }
 
 

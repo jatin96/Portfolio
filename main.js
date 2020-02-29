@@ -26,6 +26,4 @@ $(document).ready(function () {
         duration: 1800,
         once: true
     })
-
-
 });
